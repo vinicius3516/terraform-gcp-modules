@@ -27,7 +27,7 @@ Para adicionar um novo módulo, crie um novo diretório em `modules/` e atualize
 Para utilizar um módulo em seu projeto Terraform, adicione um bloco `module` ao seu código, apontando para o diretório do módulo desejado.  
 Lembre-se de sempre conferir as variáveis requeridas por cada módulo.
 
-### Exemplo: Utilizando o módulo VPC
+### Exemplo: Utilizando o módulo GKE
 
 ```hcl
 module "gke" {
