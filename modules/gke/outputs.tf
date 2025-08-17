@@ -1,4 +1,4 @@
 output "gke_cluster_name" {
   description = "The name of the GKE cluster"
-  value       = google_container_cluster.primary.name
+  value       = google_container_cluster.main.name
 }
